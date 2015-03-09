@@ -1,0 +1,7 @@
+INSTALAÇÃO
+
+WIN 7
+
+http://rubyinstaller.org > download > instala como administrador > Start Command Prompt with Ruby
+gem install sass
+sass -v
