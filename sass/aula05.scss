@@ -1,0 +1,52 @@
+/* declaração de variável */
+$highlight-color: #000000;
+
+/* declaração de variável referenciando outra */
+$highlight-border: 1px $highlight-color solid;
+
+$width: 300px;
+$base-color: #ffffff;
+$background-color: #abcdef;
+
+$cor-vermelha: red;
+$cor-amarela: yellow;
+$cor-verde: green;
+
+/* hífen ou underscode são iguais */
+$cor-branca: white;
+
+
+/* uso de variável */
+.vermelho {
+    color: $cor-vermelha;
+}
+
+.amarelo {
+    color: $cor-amarela;
+}
+
+.verde {
+    color: $cor-verde;
+}
+
+/* em valor são iguais */
+.branco {
+    color: $cor_branca;
+}
+
+.error {
+    font-color: $base-color;
+    background-color: $background-color;
+    width: $width;
+    border: 1px $highlight-color;
+}
+
+.selected {
+    border: 1px $highlight-color solid;
+}
+
+
+/* uso de variável referênciando outra */
+selected2 {
+    border: $highlight-border;
+}

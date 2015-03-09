@@ -1,0 +1,43 @@
+/* declaração de variável */
+/* declaração de variável referenciando outra */
+/* hífen ou underscode são iguais */
+/* uso de variável */
+/* line 20, ../sass/aula05.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 24, ../sass/aula05.scss */
+.amarelo {
+  color: yellow;
+}
+
+/* line 28, ../sass/aula05.scss */
+.verde {
+  color: green;
+}
+
+/* em valor são iguais */
+/* line 33, ../sass/aula05.scss */
+.branco {
+  color: white;
+}
+
+/* line 37, ../sass/aula05.scss */
+.error {
+  font-color: white;
+  background-color: #abcdef;
+  width: 300px;
+  border: 1px black;
+}
+
+/* line 44, ../sass/aula05.scss */
+.selected {
+  border: 1px black solid;
+}
+
+/* uso de variável referênciando outra */
+/* line 50, ../sass/aula05.scss */
+selected2 {
+  border: 1px black solid;
+}

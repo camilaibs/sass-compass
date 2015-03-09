@@ -24,3 +24,4 @@ play para watch e stop para parar watch
 compilar manualmente: sass <arquivo.scss>
 compilar automaticamente: sass --watch pasta/sass:pasta/css
 engenharia reversa: sass-convert <arquivo.css> <arquivo.scss>
+$<nome da variável>:<valor>; (- / _)
