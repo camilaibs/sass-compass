@@ -1,10 +1,19 @@
-AULA 1
-
-
-
-
 AULA 2
+
+-instalação
+-criar arquivo
+-compilar arquivo
+
+
+
+AULA 3
 
 -compilar manualmente
 -compilar automaticamente
 -engenharia reversa
+
+
+
+AULA 4
+
+- compilar com scout ide

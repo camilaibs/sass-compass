@@ -1,3 +1,26 @@
+INSTALAÇÃO
+
+WINDOWS
+http://rubyinstaller.org > download > Start Command Prompt with Ruby
+gem install sass
+sass -v
+
+UBUNTU
+ruby -v
+sudo apt-get install ruby.x.x
+sudo gem install sass
+
+
+SCOUT IDE
+http://mhs.github.io/scout-app/
++ para configurar um novo projeto
+em "Stylesheets Directories" escolher o de sass e css
+play para watch e stop para parar watch
+
+
+
+
+
 compilar manualmente: sass <arquivo.scss>
 compilar automaticamente: sass --watch pasta/sass:pasta/css
 engenharia reversa: sass-convert <arquivo.css> <arquivo.scss>
