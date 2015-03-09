@@ -1,0 +1,3 @@
+compilar manualmente: sass <arquivo.scss>
+compilar automaticamente: sass --watch pasta/sass:pasta/css
+engenharia reversa: sass-convert <arquivo.css> <arquivo.scss>
