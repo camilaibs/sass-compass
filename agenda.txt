@@ -16,10 +16,16 @@ AULA 3
 
 AULA 4
 
-- compilar com scout ide
+-compilar com scout ide
 
 
 
 AULA 5
 
 -declarar e usar variáveis
+
+
+
+AULA 6
+
+-blocos e propriedades aninhadas

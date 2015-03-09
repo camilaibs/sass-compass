@@ -25,3 +25,9 @@ compilar manualmente: sass <arquivo.scss>
 compilar automaticamente: sass --watch pasta/sass:pasta/css
 engenharia reversa: sass-convert <arquivo.css> <arquivo.scss>
 $<nome da variável>:<valor>; (- / _)
+elemento_pai_comum {
+   elemento_filho_1 { ... }
+   elemento_filho_n { ... }
+   propriedade_nome_comum : { propriedade-nome_incomum: valor ... }
+}
+
