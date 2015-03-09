@@ -29,3 +29,8 @@ AULA 5
 AULA 6
 
 -blocos e propriedades aninhadas
+
+
+AULA 7
+
+-importação e organização de código em arquivo

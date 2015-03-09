@@ -14,8 +14,9 @@ sudo gem install sass
 SCOUT IDE
 http://mhs.github.io/scout-app/
 + para configurar um novo projeto
-em "Stylesheets Directories" escolher o de sass e css
+em "Stylesheet Directories" escolher o de sass e css
 play para watch e stop para parar watch
+em "Output Modes" compressed
 
 
 
@@ -24,10 +25,15 @@ play para watch e stop para parar watch
 compilar manualmente: sass <arquivo.scss>
 compilar automaticamente: sass --watch pasta/sass:pasta/css
 engenharia reversa: sass-convert <arquivo.css> <arquivo.scss>
-$<nome da variável>:<valor>; (- / _)
+$<nome da variável>:<valor>; (- ou _)
 elemento_pai_comum {
    elemento_filho_1 { ... }
    elemento_filho_n { ... }
    propriedade_nome_comum : { propriedade-nome_incomum: valor ... }
+}
+@import "caminho do arquivo"; (../ ou /)
+escopo de variável = vale a última declaração
+importação aninhada em propriedade {
+   @import "caminho do arquivo";
 }
 
