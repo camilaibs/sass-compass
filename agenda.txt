@@ -31,11 +31,18 @@ AULA 6
 -blocos e propriedades aninhadas
 
 
+
 AULA 7
 
 -importação e organização de código em arquivo
 
 
+
 AULA 8
 
--mixins
+-mixins e quando usar
+
+
+
+AULA 9
+-herança e quando usar
