@@ -1,0 +1,24 @@
+@mixin rounded-corners {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+/* com parâmetros */
+@mixin link-colors($normal, $hover, $visited) {
+    color: $normal;
+    
+    /* "&" última propriedade do elemento */
+    &:hover { color: $hover; }
+    &:visited { color: $visited; }
+}
+
+/* com valores padrões para os parâmentros não passados */
+@mixin link-colors2($normal, $hover: $normal, $visited: normal) {
+    color: $normal;
+    
+    /* "&" última propriedade do elemento */
+    &:hover { color: $hover; }
+    &:visited { color: $visited; }
+}

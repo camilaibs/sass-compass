@@ -36,4 +36,6 @@ escopo de variável = vale a última declaração
 importação aninhada em propriedade {
    @import "caminho do arquivo";
 }
+@mixin {propriedades que podem ser reutilizadas em outros estilos e quando}
+@include mixin-nome;
 
